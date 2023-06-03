@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment-4';
+  
+  onIntervalFired(firedNumber: number) {
+    console.log(firedNumber);
+  }
 }
